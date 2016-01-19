@@ -1,4 +1,4 @@
-# MogaenSDK-Android
+# MogeanSDK-Android
 
 1. Download the .aar file and place this .aar file in your libs folder. 
 2. In your build.gradle file, add the dependency: 
