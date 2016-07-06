@@ -6,6 +6,7 @@
 3. Import the package: import com.mogeansdk.mogean.*;
 4. Invoke the Mogean Service using the sample code below: 
         Intent in = new Intent(this, MogeanService.class);
+        in.putExtra("MogeanID", "<Your Mogean Provided MogeanID>");
         in.putExtra("MogeanConsumerKey", "<Your Mogean Provided Mogean Consumer Key>");
         in.putExtra("EnableNotifications", true);
         startService(in);
