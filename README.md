@@ -6,7 +6,11 @@
     `compile(name:'mogean-release', ext:'aar')`
 
 
-3. Import the package: import com.mogeansdk.mogean.*;
+3. Import the package:
+
+    `import com.mogeansdk.mogean.*;`
+
+
 4. Invoke the Mogean Service using the sample code below: 
 
     `Intent in = new Intent(this, MogeanService.class);`
@@ -19,3 +23,4 @@
     
     `startService(in);`
 
+5. Done!
