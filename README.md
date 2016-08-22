@@ -4,7 +4,9 @@
 2. In your build.gradle file, add the dependency:
 
     `compile 'org.altbeacon:android-beacon-library:2.6.1'`
+    
     `compile 'com.google.android.gms:play-services:8.1.0'`
+    
     `compile(name:'mogean-release', ext:'aar')`
 
 3. Import the package:
