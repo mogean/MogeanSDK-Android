@@ -3,7 +3,7 @@
 ###Download the .aar file and place this .aar file in your libs folder
 ###In your build.gradle file, add the dependency
 ```java
-compile 'org.altbeacon:android-beacon-library:2.6.1'
+compile 'org.altbeacon:android-beacon-library:2.9.2'
 compile 'com.google.android.gms:play-services:7.8.0'
 compile(name:'mogean-release', ext:'aar')
 ```
